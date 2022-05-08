@@ -1,7 +1,6 @@
 import React from 'react';
 import {useRef} from 'react';
 import './Resume.css';
-import Footer from './Footer';
 
 import Resume_img from '../Assets/Zhang_Alex_Resume.png';
 

@@ -3,7 +3,7 @@ import NavBar from './NavBar';
 import Footer from './Footer';
 import './Layout.css';
 
-import { Outlet, Link } from "react-router-dom";
+import {Outlet} from "react-router-dom";
 
 const Layout = () => {
   return (

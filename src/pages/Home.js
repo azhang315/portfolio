@@ -1,7 +1,6 @@
 import React, {useState, useRef} from 'react';
 import './Home.css';
 import headshot from '../Assets/Headshot1.png';
-import Footer from './Footer';
 import emailjs from "emailjs-com";
 
 
@@ -182,19 +181,19 @@ const Home = () => {
           <section>Reach out to me with any burning questions or comments here!</section>
         </div>
         <form onSubmit={handleSubmit}>
-          <div class="textarea1">
-            <textarea name="name" id="name" type="text" maxlength="64" required onChange={handleName} ref={myRef1}></textarea>
+          <div className="textarea1">
+            <textarea name="name" id="name" type="text" maxLength="64" required onChange={handleName} ref={myRef1}></textarea>
             <label>Name</label>
           </div>
-          <div class="textarea2">
-            <textarea name="email" id="email" type="email" maxlength="64" required onChange={handleEmail} ref={myRef2}></textarea>
+          <div className="textarea2">
+            <textarea name="email" id="email" type="email" maxLength="64" required onChange={handleEmail} ref={myRef2}></textarea>
             <label>Email</label>
           </div>
-          <div class="textarea3">
-            <textarea name="msg" id="msg" type="text" maxlength="1024" required onChange={handleMsg} ref={myRef3}></textarea>
+          <div className="textarea3">
+            <textarea name="msg" id="msg" type="text" maxLength="1024" required onChange={handleMsg} ref={myRef3}></textarea>
             <label>Message</label>
           </div>
-          <div class="inputarea">
+          <div className="inputarea">
             <input id="submit" type="submit" value={submitted ? "SUBMITTED" : loading ? "    " : "SEND"}/>
             {loading === true && <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>}
           </div>
