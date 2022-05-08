@@ -13,6 +13,7 @@ import ScrollToTop from "./pages/ScrollToTop";
 
 export default function App() {
   return (
+      <React.StrictMode>
     <BrowserRouter>
     <ScrollToTop />
       <Routes>
@@ -25,5 +26,6 @@ export default function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+    </React.StrictMode>
   );
 }
