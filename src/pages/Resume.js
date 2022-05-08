@@ -14,9 +14,9 @@ const Resume = () => {
         <div className="resume">
             <div id="caption">
                 <h1 id="resume_header">Resume</h1>
-                <a onClick={openInNewTab} ref={myRef}>Download PDF⇓</a>
+                <button onClick={openInNewTab} ref={myRef}>Download PDF⇓</button>
             </div>
-            <img id="resume_img" src={Resume_img} width="600" height="825" alt="Resume Image" />
+            <img id="resume_img" src={Resume_img} width="600" height="825" alt="Resume" />
         </div>
 
     );

@@ -13,9 +13,9 @@ const Footer = () => {
             </section>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <p><a href="#" className="fa fa-facebook"></a>
-            <a href="#" className="fa fa-linkedin"></a>
-            <a href="#" className="fa fa-instagram"></a></p>
+        <p><a href="https://www.facebook.com/profile.php?id=100009542816141" className="fa fa-facebook"> </a>
+            <a href="https://www.linkedin.com/in/alex-zhang-aa3b6117a/" className="fa fa-linkedin"> </a>
+            <a href="https://www.instagram.com/azhang0too/" className="fa fa-instagram"> </a></p>
 
         </footer>
     );

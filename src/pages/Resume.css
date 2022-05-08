@@ -22,13 +22,16 @@
 
     font-size: 15px;
 }
-a {
+.resume button {
+    background-color: transparent;
+    border: none;
+    font-family: Georgia;
     text-decoration: none;
     color: beige;
     
     padding-left: 2px;
 }
-a:hover {
+.resume button:hover {
     cursor: pointer;
 }
 #resume_img {

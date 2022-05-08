@@ -86,7 +86,7 @@ const Home = () => {
     return (
       <div className="about">
         <div id="about_background" />
-        <img src={headshot} className="headshot"/>
+        <img src={headshot} className="headshot" alt="headshot"/>
         <div className="aboutme">
           <h2>About me</h2>
           <section id="bio">Hey! My name is Alex Zhang and I am currently a sophomore at the University of Michigan
