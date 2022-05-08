@@ -1,0 +1,438 @@
+.home {
+    display: grid;
+    grid-template-rows: 585px 75px;
+
+    transition-duration: 1s;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.home_hovered {
+    display: grid;
+    grid-template-rows: 600px 95px;
+
+    transition: 0.7s;
+}
+
+  /* PADDING */
+  /* PADDING */
+  /* PADDING */
+
+  .padding {
+    z-index: 1;
+    grid-row: 2;
+
+    /*background: linear-gradient(to right, rgb(13, 13, 16), rgb(17, 19, 32), rgb(8, 9, 14));*/
+    filter: drop-shadow(0.5px 0.5px 8px rgb(7, 7, 23));
+}
+
+  /* HEADER */
+  /* HEADER */
+  /* HEADER */
+.header {
+    background: url(../Assets/ross2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    grid-row: 1;
+    filter: grayscale(50%);
+
+    transition: 1s;
+
+    font-family: Georgia;
+}
+
+.header_hovered {
+    background: url(../Assets/ross2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    grid-row: 1;
+    filter: grayscale(45%);
+
+    transform: scale(1.005);
+    transition: 1s;
+
+    font-family: Georgia;
+}
+
+.name {
+    position: relative;
+    color: rgb(228, 228, 228);
+    font-size:50px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px #000000;
+    top: 180px;
+    text-align: center;
+
+    filter: blur(0.0px);
+
+    transition-duration: 0.5s;
+  
+  }
+  .intro {
+    position: relative;
+    color: rgb(229, 229, 229);
+    font-size:18px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px #000000;
+    top: 200px;
+    text-align: center;
+
+    transition-duration: 0.5s;
+  }
+ .name_hovered {
+    position: relative;
+    color: rgb(228, 228, 228);
+    font-size:50px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px #000000;
+    top:180px;
+    text-align: center;
+
+    transform: scale(1.01);
+
+     transition-duration: 0.5s;
+  }
+  .intro_hovered {
+    position: relative;
+    color: rgb(228, 228, 228);
+    font-size:50px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+    font-size:18px;
+    top:200px;
+
+    transform: scale(1.01);
+    transition-duration: 0.5s;
+
+  }
+  .button {
+    background-color: rgba(255,255,255, 0);
+    border-radius: 40px;
+    border-width: 1.5px;
+    border-color: white;
+    color: rgb(229, 229, 229);
+    padding: 5px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: Georgia;
+  
+    position: relative;
+    top: 290px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    transition-duration: 0.3s;
+    filter: opacity(90%);
+  }
+  .button:hover {
+      background-color: rgba(255,255,255,0.1);
+      transition-duration: 0.3s;
+      cursor: pointer;
+  }
+
+
+  /* HOME_CONTENT */
+  /* HOME_CONTENT */
+  /* HOME_CONTENT */
+  .home_content {
+      top: 775px;
+      display: grid;
+      grid-template-rows: 700px 75px 300px;
+      grid-template-columns: 5% 90% 5%;
+
+  }
+  /* ABOUT */
+  /* ABOUT */
+  /* ABOUT */
+.about {
+    z-index: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 25%;
+    grid-template-rows: 40% 1fr 1fr;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+    background: linear-gradient(to bottom right, rgb(34, 37, 59), rgb(29, 31, 50), rgb(23, 25, 43));
+}
+.headshot {
+    grid-column: 3;
+    grid-row: 1;
+
+    position: relative;
+    top: 25%;
+    width: 276.8px;
+    height: 400px;
+  
+    filter: drop-shadow(0.5px 0.5px 3px rgb(0, 0, 0));
+  }
+  .aboutme {
+      grid-row: 1;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      text-align: center;
+      padding: 80px 40px 0px 40px;
+  }
+  .hobbies {
+      grid-row: 2;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      padding-left: 25%;
+  }
+  .additional {
+      grid-row: 2;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      padding-left: 25%;
+  }
+  .goals {
+      grid-row: 3;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      text-align: center;
+      padding: 0px 40px 0px 40px;
+  }
+
+  /* CONTACT */
+  /* CONTACT */
+  /* CONTACT */
+.contact {
+    z-index: 1;
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    background: url(../Assets/contact2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+    font-family: Georgia;
+}
+.contactme {
+    position: relative;
+    float: right;
+    top: 25%;
+    margin-right: 50px;
+
+    font-size: 14px;
+
+    color: rgba(255, 255, 244, 0.896);
+    text-shadow: 1px 1px 2px #000000;
+    
+}
+.contactme section {
+    position: relative;
+    display: block;
+    width: 300px;
+    color: rgba(255, 255, 255, 0.77);
+    top: 10px;
+    left: 4px;
+
+    font-size: 14px;
+}
+form {
+    font-family: Georgia;
+    font-weight: lighter;
+    margin-left: 250px;
+    margin-top: 25px;
+    box-sizing: border-box;
+
+    position: relative;
+
+}
+textarea {
+    position: relative;
+    z-index: 1;
+    font-family: Georgia;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    
+    resize: none;
+    box-sizing: border-box;
+    width: 300px;
+    padding: 6px 20px;
+    margin-bottom: 8px;
+    border: 1px solid rgb(255, 255, 255, 0.01);
+    border-left: 2px solid rgba(255, 255, 255, 0.634);
+    outline: none;
+
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition: 0.1s;
+
+}
+textarea:focus {
+    border-left: 2px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.11);
+
+}
+textarea:hover {
+background-color: rgba(255, 255, 255, 0.11);
+
+transition: 0.1s;
+}
+textarea::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+#name {
+    top: 0px;
+    height: 30px;
+  }
+  #email {
+    height: 30px;
+  }
+  #msg {
+    height: 120px;
+  }
+  #submit {
+    box-sizing: border-box;
+    border-color: rgb(255, 255, 255);
+    font-family: Georgia;
+  }
+
+  #submit {
+    position: relative;
+    z-index: 2;
+    top: -10px;
+    left: 250px;
+    background-color: rgba(255,255,255, 0);
+    border-width: 1.5px;
+    border-color: white;
+    color: rgb(229, 229, 229);
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: Georgia;
+  
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    transition-duration: 0.3s;
+    filter: opacity(90%);
+
+  }
+  #submit:hover {
+      background-color: rgba(255,255,255,0.1);
+      transition-duration: 0.3s;
+      cursor: pointer;
+  }
+
+  .textarea1, .textarea2, .textarea3, .inputarea {
+      position: relative;
+  }
+  label {
+      font-size: 14px;
+      display: block;
+      position: absolute;
+      bottom: 13px;
+      left: 10px;
+  }
+  .textarea3 label {
+      top: 7.5px;
+  }
+  #name ~ label, #email ~ label, #msg ~ label {
+    transition-duration: 0.2s;
+  }
+
+  #name:focus ~ label, #email:focus ~ label,
+  #name:valid ~ label, #email:valid ~ label {
+      transform: translateY(-20px);
+      font-size: 8px;
+
+      transition-duration: 0.15s;
+  }
+  #msg:focus ~ label,
+  #msg:valid ~ label {
+    transform: translateY(-11px);
+    font-size: 8px;
+
+    transition-duration: 0.15s;
+  }
+  
+  .inputarea input[value="SUBMITTED"] {
+    transition-duration: 0.15s;
+  }
+  .inputarea input[value="SEND"] {
+    transition-duration: 0.15s;
+  }
+  .inputarea input[value="    "] {
+    transition-duration: 0.15s;
+  }
+  .lds-ellipsis {
+    display: inline-block;
+    position: absolute;
+    width: 80px;
+    height: 20px;
+
+    left: 238px;
+    bottom: 18.2px;
+  }
+  .lds-ellipsis div {
+    position: absolute;
+    top: 0px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fff;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  }
+  .lds-ellipsis div:nth-child(1) {
+    left: 0px;
+    animation: lds-ellipsis1 0.45s infinite;
+  }
+  .lds-ellipsis div:nth-child(2) {
+    left: 0px;
+    animation: lds-ellipsis2 0.45s infinite;
+  }
+  .lds-ellipsis div:nth-child(3) {
+    left: 10px;
+    animation: lds-ellipsis2 0.45s infinite;
+  }
+  .lds-ellipsis div:nth-child(4) {
+    left: 20px;
+    animation: lds-ellipsis3 0.45s infinite;
+  }
+  @keyframes lds-ellipsis1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes lds-ellipsis3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  @keyframes lds-ellipsis2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(10px, 0);
+    }
+  }
+  

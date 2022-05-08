@@ -1,0 +1,104 @@
+.nav {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 10;
+    width: 100%;
+    background-color: rgb(19, 19, 21, 1);
+    
+    transition: 0.2s;
+    transition-delay: 0.3s;
+}
+.nav > ul {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 20px;
+    padding: 0;
+    height: 100%; 
+    overflow: auto;
+    z-index: 10;
+
+    transition: 0.2s;
+    transition-delay: 0.3s;
+}
+.nav li {
+    float: right;
+    display: inline;
+    margin-right: 30px;
+
+    transition: 0.3s;
+    transition-delay: 0.1s;
+}
+.nav a {
+    font-family: Georgia;
+    font-size: 13px;
+    display: block;
+    color: rgb(149, 149, 149);
+    margin: 10px 0px 10px 0; 
+    padding: 4px 5px;
+    text-decoration: none;
+
+    transition: margin 0.2s 0.2s, color 0.2s 0.2s, background-color 0.05s 0.05s;
+}
+.nav a:hover {
+    background-color: rgb(28, 28, 28);
+    color: rgb(209, 209, 209);
+
+    transition: margin 0.2s 0.2s, color 0.05s, background-color 0.05s;
+}
+
+/* Style Change */
+/* Style Change */
+/* Style Change */
+.nav_top {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 10;
+    width: 100%;
+    background-color: rgb(19, 19, 21, 0);
+    
+    transition: 0.2s;
+    transition-delay: 0.3s;
+}
+.nav_top > ul {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 20px;
+    padding: 0;
+    height: 100%; 
+    overflow: auto;
+    z-index: 10;
+
+    transition: 0.2s;
+    transition-delay: 0.2s;
+}
+.nav_top li {
+    float: right;
+    display: inline;   
+    margin-right: 30px;
+    transition: 0.2s;
+    transition-delay: 0.2s;
+}
+.nav_top a {
+    font-family: Georgia;
+    font-size: 13px;
+    display: block;
+    color: rgb(209, 209, 209);
+    margin: 30px 0px 10px 0; 
+    padding: 4px 5px;
+    text-decoration: none;
+    filter: drop-shadow(1px 1px 4px black);
+
+    transition: margin 0.2s 0.2s, color 0.2s 0.2s, background-color 0.05s 0.05s;
+}
+.nav_top a:hover {
+    background-color: rgb(173, 173, 173, 0.1);
+    color: rgb(209, 209, 209);
+
+    transition: margin 0.2s 0.2s, color 0.05s, background-color 0.05s;
+}
+.foo {
+    padding-right: 30px;
+}

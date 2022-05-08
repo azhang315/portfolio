@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(29, 31, 50);
+  background: linear-gradient(to bottom right, rgb(34, 37, 59), rgb(29, 31, 50), rgb(23, 25, 43));
+}
+
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+
+body, :root {
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+
+  overflow-x: hidden;
+
+  scrollbar-color: rgb(84, 84, 84) rgb(19, 19, 21, 1);
+}
+
+.sticky2 {
+  position: relative;
+}
+.sticky {
+  position: fixed;
+
+  height: 100%;
+  width: 125px;
+  overflow: hidden;
+}
